@@ -1,0 +1,15 @@
+body {
+	font-family: "Avenir Next";
+	max-width: 512px;
+	margin: 0 auto;
+}
+p {
+	text-size: 18px;
+	font-family: serif;
+}
+li {
+	font-family: serif;
+}
+h1 {
+	font-family: monospace;
+}

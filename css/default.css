@@ -17,8 +17,9 @@ body {
   padding: 0 !important;
   margin: 0 !important;
 }
-li {
-  list-style-type: none;
+ol li {
+	list-style-type: decimal;
+	margin: 1em auto;
 }
 .content {
   text-align: center;

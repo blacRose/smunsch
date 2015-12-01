@@ -21,6 +21,9 @@ ol li {
 	list-style-type: decimal;
 	margin: 1em auto;
 }
+.links li {
+	list-style-type: none;
+}
 .content {
   text-align: center;
   width: 60%;

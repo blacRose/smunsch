@@ -7,7 +7,8 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale = 1.0, user-scalable=no">
 </head>
-<body class="markdown-body blogpage">
+<body class="markdown-body<?php
+if (!isset($_REQUEST['p'])) {echo ' blogpage';} ?>">
 
 <?php
 if (isset($_REQUEST['p'])) :

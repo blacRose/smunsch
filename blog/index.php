@@ -14,7 +14,7 @@ if (!isset($_REQUEST['p'])) {echo ' blogpage';} ?>">
 if (isset($_REQUEST['p'])) :
 	require_once "posts.php";
 else : ?>
-
+<br><p class="check" style="text-align: center">My title <em>shows</em> the post.</p>
 <ul id="postlist">
 
 <?php

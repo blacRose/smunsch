@@ -8,7 +8,7 @@ body {
 	font: 16px Georgia !important;
 	width: 80%;
 	max-width: 684px;
-	padding: 32px 0;
+	padding: 0;
 	margin: 0 auto;
 	line-height: 2em;
 	text-align: left;
@@ -106,6 +106,9 @@ p {
 html .blogpage {
 	background-image: none;
 }
+#postlist {
+	padding: 0;
+}
 /* desktop */
 @media screen and (min-width: 855px) {
 	h1 {
@@ -126,6 +129,12 @@ html .blogpage {
 .markdown-body p {
 	margin: 0;
 	padding: 0;
+}
+.markdown-body hr {
+	height: 1px;
+	margin-left: -2rem;
+	margin-right: -2rem;
+	background-color: rgba(255,255,255,0.5);
 }
 /* tablet */
 @media screen and (min-width: 768px) {

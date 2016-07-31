@@ -3,8 +3,7 @@ require_once 'MD/Markdown.inc.php';
 use \Michelf\Markdown;
 $directory = "./";
 $texts = glob($directory . "*.md");
-foreach($texts as $key => $text)
-{
+foreach($texts as $key => $text) {
 	$meow = $text;
 	$date = str_replace(".md", "", $text);
 	echo "<li class='post $key'><a class='title' href='//smuns.ch/$date'>";

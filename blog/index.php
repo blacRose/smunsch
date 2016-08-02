@@ -6,6 +6,9 @@
 	<link rel="stylesheet" type="text/css" href="/css/default.css">
 	<meta charset="utf-8" />
 	<meta name="viewport" content="initial-scale=1.0, maximum-scale = 1.0, user-scalable=no">
+	<title><?php
+	require_once "title.php";
+	?></title>
 </head>
 <body class="markdown-body<?php
 if (!isset($_REQUEST['p'])) {echo ' blogpage';} ?>">

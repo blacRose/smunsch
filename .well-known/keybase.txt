@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/smunsch
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://smuns.ch
+  * I am smunsch (https://keybase.io/smunsch) on keybase.
+  * I have a public key with fingerprint 6CE9 1AFB 141A 909E C290  9CE5 B85A 36BC 293E CF41
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01200acb1f67d455c3f2a741e2e00608afe78672459ccb8a33b346ba8854d08739920a",
+            "fingerprint": "6ce91afb141a909ec2909ce5b85a36bc293ecf41",
+            "host": "keybase.io",
+            "key_id": "b85a36bc293ecf41",
+            "kid": "0101dea2168e7021b618df5f3e648f275d1a7c09da67eff7c5273f1196151fdc179f0a",
+            "uid": "dfda7e5960faa796ba58008b3fe29219",
+            "username": "smunsch"
+        },
+        "service": {
+            "hostname": "smuns.ch",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472933574,
+    "expire_in": 157680000,
+    "prev": "26cf1210e44ae111fe018170a5586d6f6ae688e147acbef269c2833c22b3b42c",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMNsAnicbVJ9TFVlHL4XhKuXEBu1CB2rI7JYd7fznu9D6HJNQOtK4YyPgNt7znkP
+HLj33Ov9IPDCXAMhp86pDGJYIWWW+JWOj4wUL2omRggVmky2G8KVChrgGiO1c1lu
+/dE/77vfb8/zvM/ze3+XosN1Rn1XHtOdvO6H9fq+iwe9uuw+8xUfJjikCizFh5Wi
+xQvZJOT2WEsVCUvBcEDgOBQFIDOsRNG0SMoEZCmACITjDM5BGbEcwxIUzYuiwEGS
+FEiKESDH0ZSEcyzJ8wQOMRMmK2oRcjldiurRZBkR8QDKAqAA5HEeiYR2iogWOBqS
+jKCVJBJlCmjEYoc7xNDMCdCNzIpD62mFddHe/+Af+8aBhCABGA6xOAEEBnCSTMsk
+YihOJlhaApAVcV6CDItkmRVpgiVlAHgG0ECWRMDy8qJv76KcJEuQRTTP4DKELK8F
+pDkc5wRSRgRPAD4EdCOXCu1IQ7vtXtUtFmNVJkxrlikiCs01FOS/ALOGMGFOl8Pj
+EB02rVvs8TjdKSGWp8IZgr2LBOu/AlZBUSVthBqjDLncikPFUoCGFD1KSBFQrDYC
+kmYpE4bKnYoLWZUQgmYZzSeOh95BZZokwYgyIACOKAoiAICMcMABFoc0zTESIzMQ
+MRyHND3t05FMMLxIcCQpEoRAChQhYqFI21SHpq2JemBRKI1SpEKP14WwKv/F/CU6
+vVEXGREW2i2dcdmKxxuHszEPTU295FdDuSsza2vPTaV2j+8ZKigq3G02q58Fff26
+I/MlBtX+KGl5WP09w6C+1UKCLRfmT8FGw0+Do0vOrwyUp77Y7Fy7Kmph707vzNZr
+E1XHlIXE9Ink2YW2+r4nA8ZX7frPr+ef7jcM8GnPmPzvFHHP/VabO1X9Ye/hxAOR
+dwfur2tI/qDGBg7ltx79uTbi2Ly5dH7saqstxdaZdKZnf3FEdfH+m99cr9tBW7/Y
+Qh/YsXe2M6smYviF3qTalwc3Fp7xDmTUvL/Nf6L8xnjeqk3Bt8EGVa+7ImdF9RwZ
+anwtWFJ6NjxNfD0ywbk65pWYG3d7bJ239igj/um6gbAHj3J3zd3KWvPxt9idcHV7
+yy/tlqgH2b+mn0r8u6krVloe3B7n87X0Uw0dv1s+bX1q9J7QGBfVHDs3RtRtdMPA
+hfu9H93M80Y9+2Ultuu7fQ2B5kHr02stwYjJ6Onp04bnNwUuzyyb3dfSYfEt9a9p
+ChhyWunNGYE3BjKGoztzxhKiE07YdaLRmD/hWT/z18NR41Vgabv9SeDwirE7T7xV
+cPzQSGa9+uNua+X58Tf75987e26zPbswPv6l2ZE5n6urunsoteBoalv25Q6TxZ/f
+u9X358kNO31Tt0viKszff73QOOKw1rRXxqqdS5n0Py4t9E+ejA/PArUHC43t+uNp
+OcGezGuThrxh+h9zecP+
+=UPhf
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/smunsch
+
+==================================================================

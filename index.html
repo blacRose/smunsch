@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head prefix="og: http://ogp.me/ns#">
+<head prefix="og: //ogp.me/ns#">
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>Shelby Munsch</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -15,33 +15,94 @@
 	<meta property="fb:admins" content="1057980117" />
 	<meta property="fb:profile_id" content="1057980117" />
 	<meta property="fb:app_id" content="966242223397117" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/> <!--320-->
+	<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '337344259989920',
+			xfbml      : true,
+			version    : 'v2.7'
+		});
+	};
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	(function () {
+
+		function loadScript(url, callback) {
+
+			var script = document.createElement("script")
+			script.type = "text/javascript";
+
+			if (script.readyState) { //IE
+				script.onreadystatechange = function () {
+					if (script.readyState == "loaded" || script.readyState == "complete") {
+						script.onreadystatechange = null;
+						callback();
+					}
+				};
+			} else { //Others
+				script.onload = function () {
+					callback();
+				};
+			}
+			script.src = url;
+			document.getElementsByTagName("head")[0].appendChild(script);
+		}
+		loadScript("https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js", function () {
+			//jQuery loaded
+			$('iframe[title="fb:like Facebook Social Plugin"]').load( function() {
+				$('iframe[title="fb:like Facebook Social Plugin"]').contents().find("head")
+				.append($("<style type='text/css'>  .hi {display: none;}  </style>"));
+			});
+		});
+
+
+	})();
+	</script>
 </head>
 <body>
-  <table class="page">
-    <tr>
-    <td class="content">
-      <h1>Shelby Munsch</h1>
-      <p>
-        Web Development and Design…<br />
-        WordPress Programming<br />
-        Drupal Theming and Programming<br />
-        Ruby on Rails<br />
-        Information Technologies<br>
-        System Administration<br />
-        for more, here is my <a href="docs/resume.html">Résumé</a>
-      </p>
-    </td>
-    <td class="links">
-  		<ul>
-  		  <li><a href="https://twitter.com/smunsch" rel="me">@smunsch on Twitter</a></li>
-  		  <li><a href="http://facebook.com/smunsch">Facebook</a></li>
-  		  <li><a href="https://github.com/blacRose" rel="me">Github</a></li>
-  		  <li><a href="https://google.com/+ShelbyMunsch" rel="me">Google</a></li>
-  		  <li><a href='https://alpha.app.net/smunsch' rel='me'>App.net</a></li>
-  		  <li>Email: <a href="mailto:her@smuns.ch" rel="me">her@smuns.ch</a></li>
-  		  <li>Main Phone: <a href="tel:+17076364225" rel="me">707.636.4225</a></li>
-  		</ul>
-    </td></tr>
-  </table>
+	<table class="page">
+		<tr>
+			<td class="content">
+				<h1>Shelby Munsch</h1>
+				<p>
+					Web Development and Design:<br />
+					WordPress<br />
+					Drupal<br />
+					Ruby on Rails<br />
+					Information Technologies<br />
+					System Administration<br />
+					For more, here is my…<br />
+					<a href="docs/resume.html">Résumé</a><br />
+				</p>
+				<hr />
+				<p>
+					I am also a proud member of<br />
+					<strong>
+						The International<br />
+						<a href="http://aspergirlsociety.org" alt="Link to Asper Girl website">Aspergirl<sup>&reg;</sup> Society</a>
+					</strong>
+				</p>
+			</td>
+			<td class="links">
+				<ul>
+					<li><a href="//twitter.com/smunsch" rel="me">@smunsch on Twitter</a></li>
+					<li><div class="fb-like" data-share="true" data-width="300" data-show-faces="false"></div></li>
+					<li><a href="//facebook.com/smunsch">Facebook</a></li>
+					<li><a href="//github.com/blacRose" rel="me">Github</a></li>
+					<li><a href="//google.com/+ShelbyMunsch" rel="me">Google</a></li>
+					<li><a href='//alpha.app.net/smunsch' rel='me'>App.net</a></li>
+					<li>Email: <a href="mailto:her@smuns.ch" rel="me">her@smuns.ch</a></li>
+					<li>Main Phone: <a href="tel:+17076364225" rel="me">707.636.4225</a></li>
+					<li><a href="http://no-www.org" class="image"><img src="http://no-www.org/images/type1/class-b.png" border="0" alt="Class B on no-www.org" /></a></li>
+				</ul>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>

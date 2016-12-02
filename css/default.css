@@ -1,19 +1,22 @@
-* {
+body * {
 	box-sizing: border-box;
 }
 body {
+	font-size: 16px;
+	font-size: 2vw;
 	background: #ffffff;
-	color: #111;
 	background-image: radial-gradient(circle, #6ac, #dcf);
-	font: 16px Georgia !important;
-	width: 80%;
-	max-width: 684px;
+	color: #444;
 	padding: 0;
 	margin: 0 auto;
 	line-height: 2em;
 	text-align: left;
+	width: 80%;
+	max-width: 684px;
 	text-decoration: none;
-	font-size: 2vw;
+}
+body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .center {
 	text-align: center;
@@ -26,8 +29,8 @@ body {
 	margin: 0 !important;
 }
 ol li {
-	list-style-type: decimal;
 	margin: 1em auto;
+	list-style-type: decimal;
 }
 .links ul, .links li {
 	list-style-type: none;
@@ -36,57 +39,66 @@ ol li {
 	text-align: center;
 	width: 66%;
 }
+.page .content sup {
+	font-size: 0.5em;
+	line-height: 0.5em;
+}
 .links {
 	text-align: center;
 	width: 33%;
 	max-width: 140px;
 }
+td.links, td.content {
+	vertical-align: middle;
+	height: 100%;
+}
 html .links a {
-	line-height: 2em;
 	font-size: 2vw;
+	line-height: 2em;
 }
 html body a {
+	background-color: rgba(255,255,255,0);
 	color: #834 !important;
-	text-decoration: none;
 	padding: 2px 0px;
 	border-radius: 3px;
-	background-color: rgba(255,255,255,0);
-	-webkit-transition: font-size, color, background-color 0.05s, 0.4s, 0.8s ease-in-out;
+	text-decoration: none;
+	transition: font-size, color, background-color 0.05s, 0.4s, 0.8s ease-in-out;
 }
 html body a:hover, html body a:active {
-	background: #fab;
+	background: #fab !important;
 	color: #555 !important;
-	-webkit-transition: font-size, color, background-color 0.05s, 0.4s, 0.8s ease-in-out;
+	transition: font-size, color, background-color 0.05s, 0.4s, 0.8s ease-in-out;
 }
 a:visited {
 	color: #c33;
 }
 h1 {
-	text-align: center;
+	font-weight: bold;
+	font-size: 3em;
 	color: #272727;
-	font: bold 3em Georgia;
-	line-height: 2em;
-	border-bottom: 1px rgba(128, 48, 208, 0.2) solid;
 	padding: 0;
 	margin: 0;
+	border-bottom: 1px rgba(128, 48, 208, 0.2) solid;
+	line-height: 1.5em;
+	text-align: center;
 }
 h2 {
-	text-align: center;
 	border-bottom: 1px rgba(128, 48, 208, 0.1) solid;
+	text-align: center;
 }
 p {
 	font-size: 1.5em;
-	line-height: 2em;
 	padding: 1em 0;
 	margin: 0;
+	line-height: 2em;
 }
 .page {
 	padding-top: 200px;
 }
 #postlist li {
-	list-style-type: none;
-	text-align: center;
 	margin: 1rem 0;
+	text-align: center;
+	list-style-type: none;
 }
 .title h1 {
 	padding: 0;
@@ -109,6 +121,73 @@ html .blogpage {
 #postlist {
 	padding: 0;
 }
+body.ladyleafeon {
+	background-attachment: fixed;
+	background-image: url("//amxxcs.ru/download/leafeon-wallpaper-oUfUTlm") !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	z-index: -1;
+}
+body.wpoppqpq {
+	background-attachment: fixed;
+	background-image: url("//amxxcs.ru/download/leafeon-wallpaper-oUfUTlm") !important;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+	z-index: -1;
+}
+body.ladyleafeon > span.visible.postcont > h1:first-of-type {
+	font-family: "Ubuntu", "-apple-system-font", sans-serif !important;
+	font-weight: normal !important;
+	box-shadow: 0 20px 20px -20px #000;
+	color: #fff;
+	text-shadow: 4px 4px 8px #000;
+}
+body.wpoppqpq > span.visible.postcont > h1:first-of-type {
+	font-family: "Ubuntu", "-apple-system-font", sans-serif !important;
+	font-weight: 200 !important;
+	box-shadow: 0 20px 20px -20px #000;
+	color: #fff;
+	text-shadow: 4px 4px 8px #000;
+}
+.lovely.leafeon > p {
+	clear: both;
+}
+.lovely.leafeon > p a {
+	font-family: "Ubuntu", "-apple-system-font", sans-serif !important;
+	font-weight: 200 !important;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 60px 60px rgba(0, 0, 0, 0.5);
+	color: rgba(0,0,0,1) !important;
+	text-shadow: #CF678F 0px 0px 5px, #CF678F 0px 0px 5px, #CF678F 0px 0px 5px,
+		#CF678F 0px 0px 5px, #CF678F 0px 0px 5px, #CF678F 0px 0px 5px;
+	transition: none !important;
+	transition: background-color, box-shadow, text-shadow 2s, 2s, 2s ease-in !important;
+}
+.lovely.leafeon > p a:hover {
+	box-shadow: 0 0 60px 60px #CF678F;
+	text-shadow: #eee 0px 0px 5px, #eee 0px 0px 5px, #eee 0px 0px 5px,
+		#eee 0px 0px 5px, #eee 0px 0px 5px, #eee 0px 0px 5px;
+	background-color: #CF678F !important;
+	text-decoration: none;
+}
+.lovely.leafeon > p a img {
+	background-color: #E8D098;
+	box-shadow: 0px 0px 15px 1px #CF678F, inset 1px 1px 2px 1.5px #309870;
+	padding: 2px 0 0 3px;
+	border: 1.5px solid #E8D098;
+	border-radius: 25%;
+	float: left;
+	width: 10%;
+	height: auto;
+	max-width: 250px;
+	max-height: 250px;
+	min-width: 100px;
+	min-height: 100px;
+}
 /* desktop */
 @media screen and (min-width: 855px) {
 	h1 {
@@ -125,22 +204,24 @@ html .blogpage {
 	}
 }
 .markdown-body p {
-	margin: 0;
 	padding: 0;
+	margin: 0;
 }
 .markdown-body hr {
-	height: 1px;
 	background-color: rgba(255,255,255,0.5);
+	height: 1px;
 }
 .markdown-body h2 p {
 	font-size: 0.5em;
 }
 .markdown-body .postcont ul > li {
-	list-style-type: none;
 	font-size: 1.6em;
 	line-height: 1.6em;
+	list-style-type: none;
 }
-
+/* .page .content sup > a {
+	top: -0.5em;
+} */
 /* tablet */
 @media screen and (min-width: 768px) {
 	a {
